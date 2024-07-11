@@ -25,6 +25,7 @@ const calculateProfit = () => {
 
     document.getElementById('profit').textContent = `Profit per day: ${formatNumber(CoinsProfitPerDay)}`;
     document.getElementById('coins-required').textContent = `Coins required per day: ${formatNumber(CoinsRequirementPerDay)}`;
+    document.getElementById('quantity').textContent = `Buy Order Size: ${formatNumber(Quantity)}`;
 
     document.getElementById('result').classList.remove('hidden');
 };
