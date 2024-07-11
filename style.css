@@ -50,6 +50,7 @@ input {
     margin: 6px 0;
     
 }
+
 .calculate {
     padding: 10px 20px;
     background-color: rgb(97, 177, 97);
@@ -80,17 +81,26 @@ input {
 }
 
 #result {
-
     border: 3px solid black;
     border-radius: 10px;
     background-color: rgb(110, 109, 109);
     padding: 30px;
-    
-
 }
 
 #result p {
     size: 40px;
+}
+
+.profit {
+    color: rgb(62, 209, 62);
+}
+
+.coins-required {
+    color: rgb(212, 84, 84);
+}
+
+.quantity {
+    color: rgb(221, 76, 221);
 }
 
 .hidden {
